@@ -1,5 +1,5 @@
-function validatePassword(password, isPrivilegedAccount = false) {
-    const minLength = isPrivilegedAccount ? 15 : 8;
+function validatePassword(password) {
+    const minLength = 15;
 
     if (typeof password !== 'string' || !password) {
         throw new Error('Password must be a non-empty string');
