@@ -1,4 +1,4 @@
-function validatePassword(password) {
+function passwordValidator(password) {
     const minLength = 15;
 
     if (typeof password !== 'string' || !password) {
@@ -24,4 +24,4 @@ function validatePassword(password) {
     return true;
 }
 
-module.exports = validatePassword;
+module.exports = passwordValidator;
