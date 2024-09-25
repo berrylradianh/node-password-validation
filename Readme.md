@@ -34,7 +34,7 @@ Follow these steps to install and run the project:
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/berrylradianh/node-password-validation.git
    ```
 
 2. Navigate to the project directory:
@@ -72,7 +72,7 @@ npm test
 ```
 
 ## Test Results
-![App Screenshot](https://github.com/node-password-validation/blob/main/test-results.png)
+![App Screenshot](https://github.com/berrylradianh/node-password-validation/blob/master/screenshots/unitTestResult.jpg)
 
 ## License
 
